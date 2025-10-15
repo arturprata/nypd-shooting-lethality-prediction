@@ -1,19 +1,19 @@
-# 🔫 NYPD Shooting Lethality Prediction  
+#NYPD Shooting Lethality Prediction  
 **Análise e predição da letalidade dos tiroteios na cidade de Nova York (2006–2022)**
 
-## 📌 Sobre o Projeto
+##Sobre o Projeto
 
 Este projeto tem como objetivo analisar os fatores associados à letalidade dos tiroteios na cidade de Nova York e construir modelos preditivos capazes de estimar a probabilidade de um disparo resultar em morte, utilizando técnicas de aprendizado de máquina supervisionado.
 
 ---
 
-## 🗂️ Dataset Utilizado
+##Dataset Utilizado
 
-- **Fonte:** [NYC Open Data – NYPD Shooting Incident Data (Historic)](https://data.cityofnewyork.us/)
+- **Fonte:** [NYC Open Data – NYPD Shooting Incident Data (Historic)]([https://data.cityofnewyork.us/](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data))
 - **Período:** 2006–2022  
 - **Tamanho:** ~27.000 registros | 21 colunas  
 
-### 🔑 Principais variáveis:
+###Principais variáveis:
 
 - `occur_date`, `occur_time` – Data e hora do incidente  
 - `boro`, `precinct` – Localização (bairro e distrito policial)  
@@ -23,40 +23,29 @@ Este projeto tem como objetivo analisar os fatores associados à letalidade dos 
 
 ---
 
-## ❓ Perguntas de Pesquisa
+##Perguntas de Pesquisa
 
 1. Quais fatores estão associados à letalidade dos tiroteios na cidade de Nova York?  
 2. É possível estimar, a partir das informações disponíveis no momento do crime, a chance de um tiroteio resultar em homicídio?
 
 ---
 
-## 💡 Hipóteses
+##Hipóteses
 
 - **H1:** A letalidade varia de acordo com o horário, bairro e distrito policial.  
 - **H2:** O perfil da vítima e do agressor influencia a letalidade.  
-- **H3:** Modelos baseados em árvores (Random Forest, XGBoost) superam modelos lineares na previsão da letalidade.
+- **H3:** Modelos baseados em árvores (Random Forest, XGBoost) superam modelos lineares (Regressão Logística) na previsão da letalidade.
 
 ---
 
-## ⚙️ Metodologia
-
-- **Coleta e integração de dados:** Junção de bases do NYPD e dados de setores policiais.  
-- **Limpeza e tratamento:** Remoção de valores nulos e codificação de variáveis categóricas.  
-- **Engenharia de atributos:** Criação de variáveis temporais, espaciais e demográficas.  
-- **Modelagem preditiva:** Regressão Logística, Random Forest e XGBoost.  
-- **Avaliação:** Métricas como AUC, F1 e PR-AUC, além de explicabilidade com SHAP.
-
----
-
-## 📈 Resultados Esperados
+##Resultados Esperados
 
 - Identificação dos principais fatores que influenciam a letalidade.  
 - Construção de um modelo preditivo da chance de morte em incidentes.  
-- Subsídios para políticas públicas orientadas por dados.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##Tecnologias Utilizadas
 
 | Categoria              | Ferramentas                         |
 |------------------------|-------------------------------------|
@@ -68,8 +57,7 @@ Este projeto tem como objetivo analisar os fatores associados à letalidade dos 
 
 ---
 
-## 👤 Autor
+##Autor
 
 **Artur Pigari Prata**  
 Estudante de Ciência da Computação – UTFPR – Campo Mourão  
-📧 [LinkedIn](https://www.linkedin.com/) (adicione seu link aqui) | [GitHub](https://github.com/) (adicione seu link aqui)
