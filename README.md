@@ -10,8 +10,8 @@ Este projeto tem como objetivo analisar os fatores associados à letalidade dos 
 ## Dataset Utilizado
 
 - **Fonte:** [NYC Open Data – NYPD Shooting Incident Data (Historic)](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data)
-- **Período:** 2006–2022  
-- **Tamanho:** ~27.000 registros | 21 colunas  
+- **Período:** 2006–2024  
+- **Tamanho:** ~29.000 registros | 21 colunas  
 
 ### Principais variáveis:
 
