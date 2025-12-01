@@ -49,7 +49,7 @@ Este projeto tem como objetivo analisar os fatores associados à letalidade dos 
 
 | Categoria              | Ferramentas                         |
 |------------------------|-------------------------------------|
-| **Linguagem**          | Python 3.10+                        |
+| **Linguagem**          | Python 3.10.0                        |
 | **Manipulação de dados** | Pandas, NumPy                    |
 | **Visualização**       | Matplotlib, Seaborn, Plotly         |
 | **Modelagem**          | Scikit-learn                        |
