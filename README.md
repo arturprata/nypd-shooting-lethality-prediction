@@ -45,15 +45,9 @@ Este projeto tem como objetivo analisar os fatores associados à letalidade dos 
 
 ---
 
-## Tecnologias Utilizadas
+## Linguagem Utilizada
 
-| Categoria              | Ferramentas                         |
-|------------------------|-------------------------------------|
 | **Linguagem**          | Python 3.10.0                        |
-| **Manipulação de dados** | Pandas, NumPy                    |
-| **Visualização**       | Matplotlib, Seaborn, Plotly         |
-| **Modelagem**          | Scikit-learn                        |
-| **Documentação**       | Jupyter Notebook                    |
 
 ---
 
@@ -68,6 +62,7 @@ Caso deseje rodar os notebooks desde o início, siga estas instruções importan
    → Coloque esse arquivo **dentro da pasta da Etapa 4**.
 
 Esses passos garantem que as etapas seguintes encontrem corretamente os dados necessários.
+Também, cheque as ferramentas utilizadas no arquivo requirements.txt, para que o projeto execute corretamente.
 
 ---
 
